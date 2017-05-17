@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+/*@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 
-@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);*/
 
 
 
@@ -98,4 +98,18 @@ html {
 
 .package-header {
 background: #595ca1;
+}
+
+
+
+.package ul li {
+  padding-top: 10px;
+padding-bottom: 10px;
+width: 80%;
+margin: auto;
+border-bottom: 1px dotted #dadada;
+list-style: none;
+color: #808080;
+font-size: 14px;
+text-align: center;
 }
