@@ -34,17 +34,53 @@
       </nav>
   </header>
     <!-- ****************************Fin Navbar************************************************************ -->
-    <form action="/html/tags/html_form_tag_action.cfm">
-    <fieldset class="form-group">
-    <label for="first_name">First Name</label>
-    <input type="text" class="form-control" id="first_name" name="first_name">
-    </fieldset>
-    <fieldset class="form-group">
-    <label for="last_name">Last Name</label>
-    <input type="text" class="form-control" id="last_name" name="last_name">
-    </fieldset>
-    <button type="submit" class="btn btn-default">Submit</button>
+
+
+<!-- **************************Formulaire de contact*************************************** -->
+<div class="form-group">
+  <label class="col-md-4 control-label">Nom</label>
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input  name="first_name" placeholder="Nom" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >Prénom</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input name="last_name" placeholder="Prénom" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+       <div class="form-group">
+  <label class="col-md-4 control-label">E-Mail</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+  <input name="email" placeholder="Adresse Mail" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+  <label class="col-md-4 control-label">Message</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+        	<textarea class="form-control" name="comment" placeholder="Votre Message"></textarea>
+  </div>
+  </div>
+</div>
+  <div class="col-md-4">
+    <button type="submit" class="btn btn-warning" >Envoyez <span class="glyphicon glyphicon-send"></span></button>
+  </div>
+</div>
     </form>
+
+
+
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
