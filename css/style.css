@@ -31,7 +31,7 @@ p {
 }
 
 
-
+/***********************Naavbar**************************/
 .navbar {
   background-color: #696969;
   position: sticky;
@@ -49,21 +49,34 @@ p {
   justify-content: space-around;
 }
 
+/*************************Footer************************/
 footer {
   margin-top: 20px;
 }
 
+
+/*****************************Fin Mobile*********************/
+
+
+/*******************Debut Tablette********************************/
 @media (min-width: 768px) {}
 
 
 
+
+
+/************************Fin Tablette****************************************/
+
+
+
+/**************************Debut Pc*********************************************/
 @media (min-width: 992px) {
 .image {
-  content:url("../img/coach-sportif.jpg")
+  content:url("../img/coach-sportif.jpg");
 }
 
 .image::after{
-  content: url("../img/coach-sportif.jpg")
+  content: url("../img/coach-sportif.jpg");
 }
 
 }
