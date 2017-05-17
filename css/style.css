@@ -28,7 +28,15 @@ p {
   z-index: 4;
 }
 
+.row {
+  display: flex;
+  justify-content: space-around;
+}
 
+footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 @media (min-width: 768px) {}
 
