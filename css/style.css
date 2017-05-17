@@ -83,9 +83,19 @@ footer {
 
 
 .package-box-wrap {
+  display: flex;
+  justify-content: space-around;
   display: inline-block;
   float: none;
   margin-right: -4px;
   vertical-align: top;
   margin-bottom: 25px;
+}
+
+html {
+    background: url("../img/bodybuilding-fitness-muscle-muscles-weight-lifting-bodybuilding-30-wallpaper-1.jpg") no-repeat fixed center center / cover;
+}
+
+.package-header {
+background: #595ca1;
 }
