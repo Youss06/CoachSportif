@@ -39,6 +39,10 @@ p {
   z-index: 4;
 }
 
+.navbar li a:hover {
+  color: #CCCCCC;
+  font-weight: 600;
+}
 
 .row {
   display: flex;
