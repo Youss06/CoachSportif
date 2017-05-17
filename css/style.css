@@ -1,3 +1,41 @@
+article {
+  margin-top: 20px;
+  width: 100%;
+  font-size:20px;
+  background-color:#fff;
+  padding: 4em;
+  border: .25em solid #191919;
+  color:black;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0 0 .5em;
+}
+/******************Paragraph dans blog***************/
+p {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1em;
+  margin: 0;
+  line-height: 1.618em;
+}
+
+
+
+
+
+@media (min-width: 768px) {}
+
+
+
+@media (min-width: 992px) {
 .image {
-  height: 200px;
+  content:url("../img/coach-sportif.jpg")
+}
+
+.image::after{
+  content: url("../img/coach-sportif.jpg")
+}
+
 }
