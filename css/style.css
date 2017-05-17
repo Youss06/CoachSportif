@@ -23,15 +23,11 @@ p {
 
 
 .navbar {
-  position: fixed;
+  position: sticky;
   top: 0px;
-  width: 100%;
-  height: 45px;
-  text-align: center;
-  padding-top: 0px;
-  padding-right: 75px;
-  z-index: 1;
+  z-index: 4;
 }
+
 
 
 @media (min-width: 768px) {}
