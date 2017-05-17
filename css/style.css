@@ -51,7 +51,8 @@ p {
 
 /*************************Footer************************/
 footer {
-  margin-top: 20px;
+  /*margin-top: 20px;*/
+  background-color: black;
 }
 
 
@@ -116,4 +117,10 @@ color: #808080;
 font-size: 14px;
 text-align: center;
 /*color: white;*/
+}
+
+
+.btn {
+  display: block;
+  margin: auto;
 }
