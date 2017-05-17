@@ -92,14 +92,17 @@ footer {
   margin-bottom: 25px;
 }
 
-html {
-    background: url("../img/bodybuilding-fitness-muscle-muscles-weight-lifting-bodybuilding-30-wallpaper-1.jpg") no-repeat fixed center center / cover;
-}
+/*body {
+    background: url("../img/bodybuilding-fitness-muscle-muscles-weight-lifting-bodybuilding-30-wallpaper-1.jpg") no-repeat fixed center;
+}*/
 
 .package-header {
 background: #595ca1;
 }
 
+h4, h5 {
+  text-align: center;
+}
 
 
 .package ul li {
@@ -112,4 +115,5 @@ list-style: none;
 color: #808080;
 font-size: 14px;
 text-align: center;
+/*color: white;*/
 }
