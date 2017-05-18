@@ -124,3 +124,8 @@ text-align: center;
   display: block;
   margin: auto;
 }
+
+
+map iframe {
+  width: 100%;
+}
