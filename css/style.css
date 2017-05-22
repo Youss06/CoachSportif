@@ -118,7 +118,25 @@ font-size: 14px;
 text-align: center;
 /*color: white;*/
 }
+footer div {
+  display: block;
+  display: inline-block;
+}
 
+
+footer img {
+  margin: 2%;
+  width: 4%;
+}
+
+footer li {
+  list-style: none;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
 
 .btn {
   display: block;
